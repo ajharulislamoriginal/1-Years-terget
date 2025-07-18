@@ -1,0 +1,49 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: crimson;
+}
+
+
+.font-fm {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.all-month {
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 120px;
+    color: white;
+    
+}
+
+ .month {
+    border: 2px solid  white;
+    width: 300px;
+    height: auto;
+    background-color:white;
+    border-radius: 3px;
+    color: black;
+    padding: 30px;
+ }
+
+
+ .item {
+    width: 80%;
+    height: 100px;
+    margin-left: 120px;
+    border-radius: 3px;
+    padding: 20px;
+    background-color:lawngreen;
+ }
