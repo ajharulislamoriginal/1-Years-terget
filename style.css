@@ -28,6 +28,12 @@ body {
     
 }
 
+
+.all-month h2 {
+    background-color: lawngreen;
+    width: 195px;
+}
+
  .month {
     border: 2px solid  white;
     width: 300px;
@@ -41,9 +47,23 @@ body {
 
  .item {
     width: 80%;
-    height: 100px;
+    height: 200px;
     margin-left: 120px;
     border-radius: 3px;
     padding: 20px;
+    background-color:white;
+ }
+
+
+ .font-fm h1 {
+    padding: 20px;
+    border-radius: 1rem;
+    width: 300px;
+    background-color:aqua;
+    margin: 20px auto;
+ }
+
+
+ span {
     background-color:lawngreen;
  }
